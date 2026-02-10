@@ -10,7 +10,7 @@ public class ShoppingCart {
         int quantity;
         int total;
 
-        System.out.println("***Pizza and Burgers***");
+        System.out.println("***Pizza and Burgers ***");
         System.out.print("What item you want to buy? :");
         item = scanner.nextLine().toLowerCase();
         if(item.equals("pizza"))
